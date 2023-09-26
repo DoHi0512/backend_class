@@ -23,7 +23,7 @@ jobs:
     
     - name: build and release to DockerHub
       env:
-        NAME: DoHi0512 # 계정 명
+        NAME: dohi0512 # 계정 명
         REPO: backend_class # 레포 이름
       run: |
         docker build -t $REPO .
